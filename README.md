@@ -3,10 +3,7 @@
 As part of the "Hack the Party" category, HandScape is an interactive art installation designed for the Sunday night party at MIT Reality Hack 2024. It allows users to connect through artistic expression.
 Check out our team's [DevPost](https://devpost.com/software/handscape) for more info on the project journey, inspiration, and story :-)
 ## Setup
-
-**Oh yeah, by the way, don't forget to set up `git lfs` on your machine.**
-
-Tell everyone what your project needs in order to run. This might involve many components or software. Maybe some cool libraries?
+Starting off, we combined Ultraleap's hand tracking camera and software with Unity to set up a baseline experience that allows users to pinch their fingers and generate digital paint strokes. Using C#, we experimented with writing scripts that adjusted the paint stroke's colors, width, and appearance. This [Ultraleap documentation](https://docs.ultraleap.com/xr-and-tabletop/xr/unity/getting-started/index.html) walks through useful plugins and example scenes to set up simple XR experiences. The hand tracking camera was also extremely accurate and had great field of view.
 
 ### Hardware Required
 
